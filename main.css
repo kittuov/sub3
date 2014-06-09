@@ -158,11 +158,8 @@ min-widht:800px;}
 	z-index:80;
 }
 #score{
-	float:right;
 	display:block;
-	position:fixed;
-	right:20px;
-	top:200px;
+	position:relative;
 	margin: 0 0;
 	color:white;	
 	z-index:30;
@@ -184,6 +181,10 @@ ul li
 { 	display:inline-flex;
 	flex:1;
 	color:white;
+	padding:0;
+	text-indent:0px;
+	list-style:none;
+	cursor:pointer;
 }
 #footer
 {
@@ -193,3 +194,6 @@ ul li
 	position:relative;
 	z-index:50;
 }
+input	
+{	position:relative;
+	z-index:41;}

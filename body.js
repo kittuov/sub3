@@ -22,6 +22,8 @@ function dofirst()
 		list1.item(i).onclick=hideit;
 		list1.item(i).onmouseover=ask;
 	}
+	var b= $('#wrap').position();
+	alert(b.left);
 }
 
 window.onload=dofirst;

@@ -173,11 +173,23 @@ min-widht:800px;}
 	display:flex;
 	flex:1;
 	flex-direction:row;
-	min-width:800px;
+	min-width:1000px;
 	position:fixed;
-	width:100%;
 	margin:0px 0px;
 	top:0px;
 	left:0;
 	opacity:0.6;
+}
+ul li
+{ 	display:inline-flex;
+	flex:1;
+	color:white;
+}
+#footer
+{
+	text-align:center;
+	display:block;
+	width:800px;
+	position:relative;
+	z-index:50;
 }
